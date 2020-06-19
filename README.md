@@ -115,7 +115,9 @@ Los modelos actuales de la Raspberry Pi no cuentan con la característica integr
 
 Posee un conector de GPIO de 8 pines, sin un propósito específico, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
 
-### Ardurino Uno
+### Ardurino Uno.
+
+### Componentes.
 
 ### Alimentación (1)(2)
 
