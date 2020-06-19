@@ -36,6 +36,86 @@ La RPi funciona como un enlace de comunicación entre el usuario que envía señ
 Micro bit es una pequeña tarjeta programable de 4x5 cm diseñada para que aprender a programar sea fácil, divertido y al alcance de todos. Gracias a la gran cantidad de sensores que incorpora, sólo con la tarjeta se pueden llevar a cabo centenares de proyectos. BBC micro: bit también es una plataforma IoT (Internet de las cosas), lo que la hace muy interesante para usuarios avanzados. MicroBit es una tarjeta de circuitos del tamaño de la palma de una mano con una serie de 25 ledes y un chip Bluetooth para conexión inalámbrica. Puede ser programada para mostrar letras, números y otros símbolos y caracteres. Micro Bit fue diseñada para alentar a los niños a participar activamente en la creación de software para computadoras y la creación de nuevas cosas, en lugar de ser consumidores de medios. Creada para funcionar junto con otros sistemas, como Raspberry Pi.
 Es posible utilizar todas las plataformas informáticas principales: Windows, MacOS y Linux para la programación. MakeCode y JavaScript se programa a través del navegador web en el Micro: página web de bits [9]. Se utiliza el enlace "Vamos a codificar" y el código se coloca en la nube entonces. Por lo tanto, una red es necesario. Por el contrario, la red no es necesaria cuando programación en Python porque se realiza localmente a través de Mu Editor [9]. El código se compila en formato binario y luego cargado en el Micro: bit con cable USB
 
+### 4.MARCO TEÓRICO .
+
+### Microcontroladores
+
+En 1971 apareció el primer microprocesador el cual originó un cambio decisivo en las técnicas de diseño de la mayoría de los equipos. Al principio se creía que el manejo de un microprocesador era para aquellas personas con un coeficiente intelectual muy alto; por lo contrario, con la aparición de este circuito integrado todo sería mucho más fácil de entender y los diseños electrónicos serían mucho más pequeños y simplificados. Entre los microprocesadores más conocidos tenemos el popular Z-80 y el 8085. Los diseñadores de equipos electrónicos ahora tenían equipos que podían realizar mayor cantidad de tareas en menos tiempo y su tamaño se redujo considerablemente; sin embargo, después de cierto tiempo aparece una nueva tecnología llamada microcontrolador que simplifica aún más el diseño electrónico.
+Un microcontrolador es un circuito integrado digital que puede ser usado para muy diversos propósitos debido a que es programable. Está compuesto por una unidad central de proceso (CPU), memorias (ROM y RAM) y líneas de entrada y salida (periféricos). Como podrás darte cuenta, un microcontrolador tiene los mismos bloques de funcionamiento básicos de una computadora lo que nos permite tratarlo como un pequeño dispositivo de cómputo. "Un microcontrolador es una computadora de un solo chip. Micro se refiere a que el dispositivo es pequeño y controlador, es decir que es empleado en sistemas de control” S. Romero (2010). Un microprocesador difiere de un Microcontrolador en muchos aspectos. La principal es que un microprocesador requiere severos componentes externos para su operación, como memoria de programa y memoria de datos, dispositivos de Entrada/Salida, y un circuito de reloj externo. Un microcontrolador tiene todos los chips de soporte incorporados dentro del único chip. Todos los microcontroladores operan en conjunto de instrucciones almacenada en la memoria. En esta nueva era de la Industria 4.0, popularmente conocida como Internet de las Cosas e Internet of Things (IoT), los microcontroladores son una interesante solución en el campo de la electrónica con una arquitectura eficiente para soportar una amplia gama de opciones de conectividad.
+
+### Raspberry Pi.
+
+### Hardware.
+
+La versión primitiva del Raspberry Pi data de 2006 y no era más que un microcontrolador con un circuito impreso. No fue hasta 2011 cuando se crearon los primeros prototipos de este micrordenador, prototipos que en 2012 se convirtieron en un producto finalizado y listo para llegar a todo aquel que buscada un micrordenador.
+Los principales componentes electrónicos son:
+
+•	Un Chipset Broadcom BCM2835, que contiene un procesador central (CPU) ARM1176JZF-S a 700 MHz (el firmware incluye unos modos Turbo para que el usuario pueda hacerle overclock de hasta 1 GHz sin perder la garantía.
+
+•	Un procesador gráfico (GPU) VideoCore IV.
+
+•	Un módulo de 512 MB de memoria RAM (aunque originalmente al ser lanzado eran 256 MB).
+
+•	Un conector de RJ45 conectado a un integrado lan9512 -jzx de SMSC que nos proporciona conectividad a 10/100 Mbps.
+
+•	2 buses USB 2.0
+
+•	Una Salida analógica de audio estéreo por Jack de 3.5 mm.
+
+•	Salida digital de video + audio HDMI.
+
+•	Salida analógica de video RCA.
+
+•	Pines de entrada y salida de propósito general.
+
+•	Conector de alimentación micro USB.
+
+•	Lector de tarjetas SD.
+
+### Procesador SoC (ARM vs X86)
+
+El procesador en el interior de su Raspberry Pi es un procesador multimedia Broadcom BCM2835 (SoC). Esto quiere decir que la mayor parte de los componentes del sistema, incluidos la CPU y la GPU junto con el audio y el hardware de comunicaciones, se encuentran integrados dentro de aquel único componente oculto ubicado justo debajo del chip de la memoria de 512 MB en el centro de la placa, diferente del procesador de un PC o portátil. Lo que lo hace también diferente es que utiliza una arquitectura de conjunto de instrucciones distinta, conocida como ARM.
+
+### CPU
+
+La CPU Contiene un ARM1176JZFS, con unidad de coma flotante, que funciona a 700Mhz y es capaz de soportar overclock a 1GHZ en modo “TURBO” que hace que el SoC de más rendimiento sin reducir el tiempo de vida de la placa y sin perder la garantía. La CPU está basada en la versión 6 de la arquitectura ARM, la cual no es soportada por una gran cantidad de distribuciones Linux, incluyendo Ubuntu.
+
+### GPU
+
+La GPU utilizada es una Dual Core VideoCore IV Multimedia Co-Processor. Es capaz de mover contenidos con calidad Blu-ray, usando H.264 hasta 40MBits/s. Dispone un núcleo 3D con soporte para las librerías OpenGL ES2.0 y OpenVG. Es capaz de decodificar 1080p30.
+
+### RAM
+
+La memoria RAM es de 512MB de SDRAM (en su modelo B), en un único módulo, el cual, funciona a 400Mhz en su modo normal y alcanzando los 600Mhz en su versión “TURBO”.
+
+### Almacenamiento
+
+La Raspberry Pi no tiene un disco duro tradicional, para ello dispone de un lector/ranura para memorias SD, un sistema de almacenamiento en estado sólido. El arranque del sistema se hará desde la propia tarjeta SD, con lo que debido a que tiene que albergar todo el sistema operativo, es necesario que la tarjeta mayor de 2 GB de capacidad para almacenar todos los archivos requeridos. Para poder arrancar el S.O. será necesario primero instalar (flashear) un sistema operativo en la tarjeta antes de poder trabajar con ella.
+Salidas Audio
+Posee un conector de audio Jack de 3,5mm, además del propio HDMI. Si se está usando el puerto HDMI de la Raspberry Pi, obtener el audio es sencillo, el puerto HDMI transporta ambas señales, la de video y la de audio. Esto significa que conectando un único cable a la pantalla es suficiente para sacar video y audio.
+
+### USB
+
+El modelo B posee 2 puertos USB 2.0.
+
+### Energía y Alimentación.
+
+La energía le llega mediante un conector micro USB estándar de 5V. El consumo de la placa es de 700mA, (3,5W). la raspberry consume más energía que la mayoría de los dispositivos micro-USB y requiere de al menos 700mA para funcionar.
+
+### Salidas Video
+
+Para la salida de video la Raspberry posee un conector HDMI. Una mejor calidad de imagen puede obtenerse usando el conector HDMI proporciona una conexión digital de alta velocidad para mostrar imágenes de píxeles perfectos tanto en monitores de PC como en televisores de alta definición. Puede desplegar imágenes a la resolución de 1920×1080 Full HD. A esta resolución, el detalle sobre la pantalla es significativamente superior.
+
+### Tarjeta de red.
+
+Dispone de un conector RJ-45 conectado a un integrado lan9512 -jzx de SMSC que nos proporciona conectividad a 10/100 Mbps.
+Los modelos actuales de la Raspberry Pi no cuentan con la característica integrada para gestionar redes inalámbricas, pero (igual que con el cable Ethernet añadido en el Modelo A) es posible añadir soporte Wi-Fi a cualquier Raspberry utilizando un adaptador USB para red inalámbrica.
+
+### Pines de entrada y salida de propósito general (Conector GPIO)
+
+Posee un conector de GPIO de 8 pines, sin un propósito específico, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
+
+
 
 
 
