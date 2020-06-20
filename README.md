@@ -44,22 +44,78 @@ En 1971 apareció el primer microprocesador el cual originó un cambio decisivo 
 Un microcontrolador es un circuito integrado digital que puede ser usado para muy diversos propósitos debido a que es programable. Está compuesto por una unidad central de proceso (CPU), memorias (ROM y RAM) y líneas de entrada y salida (periféricos). Como podrás darte cuenta, un microcontrolador tiene los mismos bloques de funcionamiento básicos de una computadora lo que nos permite tratarlo como un pequeño dispositivo de cómputo. "Un microcontrolador es una computadora de un solo chip. Micro se refiere a que el dispositivo es pequeño y controlador, es decir que es empleado en sistemas de control” S. Romero (2010). Un microprocesador difiere de un Microcontrolador en muchos aspectos. La principal es que un microprocesador requiere severos componentes externos para su operación, como memoria de programa y memoria de datos, dispositivos de Entrada/Salida, y un circuito de reloj externo. Un microcontrolador tiene todos los chips de soporte incorporados dentro del único chip. Todos los microcontroladores operan en conjunto de instrucciones almacenada en la memoria. En esta nueva era de la Industria 4.0, popularmente conocida como Internet de las Cosas e Internet of Things (IoT), los microcontroladores son una interesante solución en el campo de la electrónica con una arquitectura eficiente para soportar una amplia gama de opciones de conectividad.
 
 ### Raspberry Pi.
+### Hardware.
+La versión primitiva del Raspberry Pi data de 2006 y no era más que un microcontrolador con un circuito impreso. No fue hasta 2011 cuando se crearon los primeros prototipos de este micrordenador, prototipos que en 2012 se convirtieron en un producto finalizado y listo para llegar a todo aquel que buscada un micrordenador.
 
-•	CPU: Broadcom BCM2711, Quad-Core Cortex-A72 64 bits a 1.5GHz de velocidad
+Los principales componentes electrónicos son:
 
-•	Memoria: 1GB, 2GB o 4GB de RAM LPDDR4.
+•	Un Chipset Broadcom BCM2835, que contiene un procesador central (CPU) ARM1176JZF-S a 700 MHz (el firmware incluye unos modos Turbo para que el usuario pueda hacerle overclock de hasta 1 GHz sin perder la garantía.
 
-•	Conectividad: Wi-Fi b/g/n/ac (2.4GHz y 5GHz), Bluetooth 5.0 con BLE, puerto Gigabit Ethernet, 2 puertos USB 3.0 y 2 puertos USB 2.0
+•	Un procesador gráfico (GPU) VideoCore IV.
 
-•	GPIO: 40-pin compatible con las otras Raspberry Pi.
+•	Un módulo de 512 MB de memoria RAM (aunque originalmente al ser lanzado eran 256 MB).
 
-•	Video y sonido: 2 puertos micro HDMI (hasta 4K a 60 FPS), 2-laneMIPI DSI display, 2-lane MIPI CSI camera, 4-pole stereo audio y video.
+•	Un conector de RJ45 conectado a un integrado lan9512 -jzx de SMSC que nos proporciona conectividad a 10/100 Mbps.
 
-•	Multimedia: H.265 hasta 4K a 60 FPS, H.264 a 1080p a 60 y 30 FPS.
+•	2 buses USB 2.0.
 
-•	Soporte tarjetas micro SD: soporta micro SD para el sistema operativo y también para almacenamiento de datos.
+•	Una Salida analógica de audio estéreo por Jack de 3.5 mm.
 
-•	Alimentación: vía USB tipo C con 5V y 3A, vía PoE con HAT (se vende por separado), vía GPIO con mínimo 3A.
+•	Salida digital de video + audio HDMI.
+
+•	Salida analógica de video RCA.
+
+•	Pines de entrada y salida de propósito general.
+
+•	Conector de alimentación micro USB.
+
+•	Lector de tarjetas SD.
+
+### Procesador SoC (ARM vs X86).
+
+El procesador en el interior de su Raspberry Pi es un procesador multimedia Broadcom BCM2835 (SoC). Esto quiere decir que la mayor parte de los componentes del sistema, incluidos la CPU y la GPU junto con el audio y el hardware de comunicaciones, se encuentran integrados dentro de aquel único componente oculto ubicado justo debajo del chip de la memoria de 512 MB en el centro de la placa, diferente del procesador de un PC o portátil. Lo que lo hace también diferente es que utiliza una arquitectura de conjunto de instrucciones distinta, conocida como ARM.
+
+### CPU.
+
+La CPU Contiene un ARM1176JZFS, con unidad de coma flotante, que funciona a 700Mhz y es capaz de soportar overclock a 1GHZ en modo “TURBO” que hace que el SoC de más rendimiento sin reducir el tiempo de vida de la placa y sin perder la garantía. La CPU está basada en la versión 6 de la arquitectura ARM, la cual no es soportada por una gran cantidad de distribuciones Linux, incluyendo Ubuntu.
+
+### GPU.
+
+La GPU utilizada es una Dual Core VideoCore IV Multimedia Co-Processor. Es capaz de mover contenidos con calidad Blu-ray, usando H.264 hasta 40MBits/s. Dispone un núcleo 3D con soporte para las librerías OpenGL ES2.0 y OpenVG. Es capaz de decodificar 1080p30.
+
+### RAM.
+
+La memoria RAM es de 512MB de SDRAM (en su modelo B), en un único módulo, el cual, funciona a 400Mhz en su modo normal y alcanzando los 600Mhz en su versión “TURBO”.
+
+### Almacenamiento.
+
+La Raspberry Pi no tiene un disco duro tradicional, para ello dispone de un lector/ranura para memorias SD, un sistema de almacenamiento en estado sólido. El arranque del sistema se hará desde la propia tarjeta SD, con lo que debido a que tiene que albergar todo el sistema operativo, es necesario que la tarjeta mayor de 2 GB de capacidad para almacenar todos los archivos requeridos. Para poder arrancar el S.O. será necesario primero instalar (flashear) un sistema operativo en la tarjeta antes de poder trabajar con ella.
+
+### Salidas Audio.
+
+Posee un conector de audio Jack de 3,5mm, además del propio HDMI. Si se está usando el puerto HDMI de la Raspberry Pi, obtener el audio es sencillo, el puerto HDMI transporta ambas señales, la de video y la de audio. Esto significa que conectando un único cable a la pantalla es suficiente para sacar video y audio. 
+
+### USB.
+El modelo B posee 2 puertos USB 2.0.
+
+### Energía y Alimentación
+
+La energía le llega mediante un conector micro USB estándar de 5V. El consumo de la placa es de 700mA, (3,5W). la raspberry consume más energía que la mayoría de los dispositivos micro-USB y requiere de al menos 700mA para funcionar.
+
+### Salidas Video.
+
+Para la salida de video la Raspberry posee un conector HDMI. Una mejor calidad de imagen puede obtenerse usando el conector HDMI proporciona una conexión digital de alta velocidad para mostrar imágenes de píxeles perfectos tanto en monitores de PC como en televisores de alta definición. Puede desplegar imágenes a la resolución de 1920×1080 Full HD. A esta resolución, el detalle sobre la pantalla es significativamente superior.
+
+### Tarjeta de red.
+
+Dispone de un conector RJ-45 conectado a un integrado lan9512 -jzx de SMSC que nos proporciona conectividad a 10/100 Mbps.
+Los modelos actuales de la Raspberry Pi no cuentan con la característica integrada para gestionar redes inalámbricas, pero (igual que con el cable Ethernet añadido en el Modelo A) es posible añadir soporte Wi-Fi a cualquier Raspberry utilizando un adaptador USB para red inalámbrica.
+
+### Pines de entrada y salida de propósito general (Conector GPIO).
+
+Posee un conector de GPIO de 8 pines, sin un propósito específico, cuyo comportamiento (incluyendo si es un pin de entrada o salida) se puede controlar (programar) por el usuario en tiempo de ejecución.
+
+![](Imagenes/Raspberry.png).
 
 ### Ardurino Uno.
 
