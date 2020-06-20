@@ -1,0 +1,23 @@
+int boton = 2;//varibles de entrada
+int led = 8;//varibles de salida
+int estadoB= 0;//varible_estado_boton
+
+
+void setup()//Funcion para declarar nuestras salidas y entradas
+{
+  pinMode(boton, INPUT);
+  pinMode(led, OUTPUT);
+}
+
+void loop()//funcion para ejecutarse una vez el codigo este cargado
+{
+  estadoB=digitalRead(boton);//Lectura del boton
+  if(estadoB==HIGH){//Condicion boton
+    digitalWrite(led,HIGH);//Instruccion encender el led
+    
+  
+}
+else{
+  
+  digitalWrite(led,LOW);//instruccion de apagar el led
+}
