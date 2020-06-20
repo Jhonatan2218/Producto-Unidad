@@ -179,5 +179,4 @@ Es el encargado de controlar la comunicación con el puerto USB.
 
 Es el elemento que hace que el Arduino vaya ejecutando las instrucciones. Es el encargado de marcar el ritmo al cual se debe ejecutar cada instrucción del programa.
 
-
-
+![](Imagenes/Arduino%20Uno.jpeg).
