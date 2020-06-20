@@ -214,3 +214,101 @@ Es el elemento que hace que el Arduino vaya ejecutando las instrucciones. Es el 
 
 
 ![](Imagenes/MicroBit.jpeg). 
+
+### 2. Software.
+
+### Placa Arduino Uno.
+
+### Tinkercad.
+
+Tinkercad es una aplicación gratuita en línea de diseño e impresión 3D, desarrollada por Autodesk, la cual permite realizar simulaciones en tiempo real, programación de dispositivos Arduino virtuales, los sketch se pueden elaborar utilizando texto o bloques (de forma similar a la aplicación Scratch), también es una herramienta que permite exportar el circuito a diagrama. Es interesante la idea de poder diseñar circuitos electrónicos en el PC y simular su funcionamiento. Dispone de un entorno muy ameno con el que vamos seleccionando los elementos activos y pasivos que necesitamos, comenzando desde una placa Protoboard. Una vez montado el circuito con una placa controladora Arduino, podremos escribir el código. Para ello, habrá que clicar sobre el icono “Code” y se optará por la opción de programación por bloques, texto o mixta. Ésta última muestra las dos opciones (bloques y texto) simultáneamente.
+
+### Programación por bloques.
+
+El bloque de código es una sección de código con una o más declaraciones y sentencias. Un lenguaje de programación que permite bloques incluyendo bloques anidados dentro de otros bloques. Los bloques son piezas que contienen ciertos códigos, en un orden determinado, y esos bloques admiten cambiar valores para anidar otros bloques en variables o huecos, y así se van colocando según las necesidades de lo que queremos programar. En un lenguaje de programación estructurado en bloque, los nombres de las variables y otros objetos, como los procedimientos que son declarados en bloques externos son visibles dentro de otros bloques internos, a menos que sean sombreado por un objeto del mismo nombre. Con estas aplicaciones, el programador maneja estos bloques y sus conexiones y, normalmente, no es necesario añadir líneas escritas. Las aplicaciones para programar por bloques son adecuadas para introducir los conceptos básicos de programación a niños de diversos rangos de edad, además de ser útiles para trabajar otras habilidades, como el pensamiento computacional o la creatividad.
+
+### Programación por Texto.
+
+El lenguaje del Arduino está basado en el mítico lenguaje C, el lenguaje del Arduino es una versión reducida y mucho más sencilla de manejar que el lenguaje C. El objetivo de este lenguaje es que puedas programar de una manera intuitiva concentrándote en lo que quieres hacer más que en la manera de hacerlo. Las librerías permiten programar los pins digitales como puertos de entrada o salida, leer entradas analógicas, controlar servos o encender y apagar motores de continua. La mayor parte de estas librerías de base (“core libraries”) forman parte de una macro librería llamada Wiring desarrollada por Hernando Barragán.
+
+### Variables. 
+
+Es simplemente una manera de codificar o representar estos datos dentro de un programa. Las variables pueden ser enteros, reales, binarios, decimales, hexadecimales, textos constantes, etc.
+
+![](Tabla%20de%20variables.jpeg).
+
+Para declara una variable usamos int (Nombre_de_variable) = 0; y le asignamos un valor ya sea de entrada o de salida. El valor al que igualaremos nuestra variable le corresponderá al # del pin de nuestro Arduino uno ya sea de entrado o de salida.
+
+### CONSTANTES.
+
+Algunas variables no cambian de valor durante la ejecución del nuestro programa. En estos casos podemos añadir la palabra reservada ‘const’ al comienzo de la declaración de la variable.
+
+### Sintaxis.
+
+INPUT/OUTPUT (Entrada/Salida). Los pins digitales pueden ser configurados de ambos modos: como entrada (INPUT) o como salida (OUTPUT) mediante la función pinMode(): pinMode (13, OUTPUT);      // Configura el pin 13 como salida digital.
+
+INPUT_PULLUP: Reservado como parámetro de la función pinMode() para el uso de resistencias pull-up integradas en el chip Atmega del Arduino.
+
+LED_BUILTIN: para el uso del Led de serie con el que viene equipado el Arduino (generalmente conectado al pin digital 13).
+
+TRUE/FALSE (Verdadero/Falso). Para el Arduino True (Verdadero) es cualquier valor que no es 0. False (Falso) es el valor 0.
+
+HIGH/LOW (Alto/Bajo). Es el valor lógico en una puerta digital: LOW es el valor 0 -0 Voltios- y HIGH es el valor 1 -5 Voltios.
+Estructuras If, else, else if.
+
+digitalRead(pin): Lee el valor de un pin (definido como digital) dando un resultado HIGH (alto) o LOW(bajo). El pin se puede especificar ya sea como una variable o una constante (0-13).
+
+digitalWrite(): Envía al ´pin´ definido previamente como OUTPUT el valor HIGH o LOW (poniendo en 1 o 0 la salida). El pin se puede especificar ya sea como una variable o como una constante (0-13).
+
+AnalogRead(pin):Lee el valor de un determinado pin definido como entrada analógica con una resolución de 10 bits. Esta instrucción sólo funciona en los pines (0-5). El rango de valor que podemos leer oscila de 0 a 1023.
+
+AnalogWrite():Esta instrucción sirve para escribir un pseudo-valor analógico utilizando elprocedimiento de modulación por ancho de pulso (PWM) a uno de los pin´s de Arduino marcados como “pin PWM”. El más reciente Arduino, que implementa el chip ATmega168, permite habilitar como salidas analógicas tipo PWM los pines 3, 5, 6, 9, 10 y 11. Los modelos de Arduino más antiguos que implementan el chip ATmega8, solo tiene habilitadas para esta función los pines 9, 10 y 11. El valor que se puede enviar a estos pines de salida analógica puede darse en forma de variable o constante, pero siempre con un margen de 0-255.
+
+### FUNCIONES
+
+setup() y loop(). Ambas se declaran de tipo void, lo cual significa que no retornan ningún valor. Arduino simplifica muchas tareas proporcionando funciones que permiten controlar entradas y salidas tanto analógicas como digitales, funciones matemáticas y trigonométricas, temporales, etc.
+
+Matemáticas: Operadores matemáticos, generador aleatorio de números, sentencias "y" y "o" que comparan posiciones de los objetos.
+
+Control: Algunos de los bloques de esta categoría contienen los bucles y condicionales que se vieron en el Tema 3. Se incluyen bloques como por siempre, repetir, esperar o si (…) entonces.
+
+Entradas: Para leer información digital del mundo exterior. son las piezas que nos marcan el inicio de un programa. Ya te habrás dado cuenta de que tienen una forma especial, distinta al resto de bloques.
+
+Salidas: Para enviar una señal digital al mundo exterior.
+
+setup(): Se invoca una sola vez cuando el programa empieza. Se utiliza para inicializar los modos de trabajo de los pins, o el puerto serie. Debe ser incluido en un programa aunque no haya declaración que ejecutar.
+
+loop():Hace precisamente lo que sugiere su nombre, se ejecuta de forma cíclica, lo que posibilita que el programa este respondiendo
+continuamente ante los eventos que se produzcan en la tarjeta
+
+Comentarios: fundamentales para documentar el proyecto.
+
+pinMode (): La comunicación por el puerto serie y otras configuraciones iniciales.
+
+setup (): Debe contener la declaración de las variables.
+
+DelayVal():se utiliza para poner un valor de retraso en un programa que lee una variable analógica de un potenciómetro conectado a una entrada de Arduino.
+
+
+### Estructura.
+
+La primera estructura de control que vamos a considerar es el operador “if” (si). Este operador verifica simplemente si un test lógico es cierto o no (es decir, si devuelve el valor true o false) y en función de esto realiza (o no) una serie de acciones. El “else if” hemos introducido un test lógico dentro del “if”: si el valor de las dos variables es idéntico podemos ejecutar un bloque alternativo de acciones.
+La estructura básica del lenguaje de programación de Arduino es bastante simple y se compone de al menos dos partes. Estas dos partes necesarias, o funciones, encierran bloques que contienen declaraciones, estamentos o instrucciones. 
+En donde setup() es la parte encargada de recoger la configuración y loop() es la que contienen el programa que se ejecutará cíclicamente (de ahí el termino loop –bucle-). Ambas funciones son necesarias para que el programa trabaje. La función de configuración debe contener la declaración de las variables. Es la primera función a ejecutar en el programa, se ejecuta sólo una vez, y se utiliza para configurar o inicializar pinMode (modo de trabajo de las E/S), configuración de la comunicación en serie y otras. La función bucle (loop) siguiente contiene el código que se ejecutara continuamente (lectura de entradas, activación de salidas, etc) Esta función es el núcleo de todos los programas de Arduino y la que realiza la mayor parte del trabajo.
+
+void setup()
+
+{
+
+estamentos;
+
+}
+
+void loop()
+
+{
+
+estamentos;
+
+}
+
