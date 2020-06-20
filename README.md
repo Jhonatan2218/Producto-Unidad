@@ -56,6 +56,37 @@ La Raspberry Pi no tiene un disco duro tradicional, para ello dispone de un lect
 
 ### Ardurino Uno.
 
+Las características generales de todas las placas Arduino son las siguientes:
+
+El microprocesador ATmega328.
+
+32 kbytes de memoria Flash.
+
+1 kbyte de memoria RAM.
+
+
+16 MHz
+
+13 pins para entradas/salidas digitales (programables)
+
+5 pins para entradas analógicas
+
+6 pins para salidas analógicas (salidas PWM)
+
+Voltaje de operación 5V
+
+Voltaje de entrada (limite) 6-20 V
+
+Digital I/O Pins 14 (con 6 salidas PWM)
+
+Entradas analógicas Pins 6
+
+Memoria Flash 32 KB (2 KB para el bootloader)
+
+SRAM 1 KB
+
+Velocidad de reloj 16 MHz
+
 ### Componentes.
 
 #### Alimentación (1)(2)
