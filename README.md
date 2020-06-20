@@ -51,6 +51,9 @@ Un microcontrolador es un circuito integrado digital que puede ser usado para mu
 
 ![](Imagenes/Partes-Raspberry.png)
 
+#### Almacenamiento
+La Raspberry Pi no tiene un disco duro tradicional, para ello dispone de un lector/ranura para memorias SD, un sistema de almacenamiento en estado sólido. El arranque del sistema se hará desde la propia tarjeta SD, con lo que debido a que tiene que albergar todo el sistema operativo, es necesario que la tarjeta mayor de 2 GB de capacidad para almacenar todos los archivos requeridos. Para poder arrancar el S.O. será necesario primero instalar (flashear) un sistema operativo en la tarjeta antes de poder trabajar con ella.
+
 ### Ardurino Uno.
 
 ### Componentes.
