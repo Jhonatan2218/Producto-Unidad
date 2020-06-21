@@ -290,6 +290,35 @@ Compara el promedio y determinar si está aprobado o reprobado.
 #### Resultado
 ![](Imagenes/Promedio-Resultado.png)
 
+### 7.2 Arduino Uno - TINKERCAD
+
+### 1) SEMAFORO
+
+Para los dos ejemplos de simulación usaremos la plataforma de Tinkercad.com ya que esta nos ofrece trabajar con la placa de Arduino Uno. En este ejemplo emularemos el comportamiento que tiene un semáforo de la vida real, este constará de encender cada uno de los leds en un tiempo determinado, el que se encargará de proporcionar el dato de encendido de la nuestra serie será el pulsador, las salidas será representadas por los leds para observar el comportamiento de nuestra serie.
+
+![](Imagenes/Semaforo%203.jpeg)
+
+### COMPONENTES
+
+Una vez escogidos nuestros elementos que necesitaremos para nuestro ejemplo, empezaremos con el cableado de nuestra placa de Arduino y la protoboard. para este caso necesitaremos 3 leds, 4 resistencias 220 ohms, un pulsador, placa de Arduino, protoboard. 
+
+### ENTRADAS/SALIDAS
+
+Identificaremos nuestra salida que será el pin 13, pin 12, pin 8 y nuestra entrada que será el pin7.
+
+###  PROGRAMACION DEL CODIGO.
+
+Comenzaremos declarando nuestras variables con Int e igualándolas con el valor de entrada o salida correspondiente a nuestra placa de Arduino. El pin de entrada es el pin 7 correspondiente al pulsador y el de salida el pin13, pin12, pin8. Además de esto declararemos variables de estado para los leds y el pulsador. Con la función void setup declararemos las salidas requerida por nuestro circuito. Empezamos con la función Void loop para iniciar la ejecución de nuestro código y estableceremos condiciones para ejecutar las instrucciones por un periodo de tiempo(delay).
+Usaremos (digitalwrite) para darle la instrucción a nuestra variable de salida que hacer si encenderse (HIGH) o apagarse (LOW) por un determinado tiempo(delay) y así encender el otro consecutivamente.
+
+![](Imagenes/Semaforo.jpeg)
+
+### RESULTADOS
+
+![](Imagenes/Semaforo%202.jpeg)
+
+![](Imagenes/Semaforo%201.jpeg)
+
 
 ### 8. CONCLUSIONES
 
