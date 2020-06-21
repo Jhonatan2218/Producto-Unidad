@@ -152,33 +152,47 @@ Es el elemento que hace que el Arduino vaya ejecutando las instrucciones. Es el 
 
 ### Micro bit
 
-1.	Procesador (Nordic nRF51822): CPU ARM Cortex-M0 de 16MHz a 32 bits, memoria flash de 256KB, 16KB RAM estática con 2.4GHz en red inalámbrica Bluetooth de bajo consumo de energía, que le permite conectar micro: bit con dispositivos móviles que ejecuten Android e iOS.
+#### 1.	Procesador (Nordic nRF51822): 
+CPU ARM Cortex-M0 de 16MHz a 32 bits, memoria flash de 256KB, 16KB RAM estática con 2.4GHz en red inalámbrica Bluetooth de bajo consumo de energía, que le permite conectar micro: bit con dispositivos móviles que ejecuten Android e iOS.
 
-2.	Brújula (NXP/Freescale MAG3110): le permite medir la intensidad del campo magnético en cada uno de los tres ejes.
+#### 2.	Brújula (NXP/Freescale MAG3110): 
+Le permite medir la intensidad del campo magnético en cada uno de los tres ejes.
 
-3.	Acelerómetro (NXP/Freescale MMA8652): le permite medir la aceleración y el movimiento a lo largo de tres ejes.
+#### 3.	Acelerómetro (NXP/Freescale MMA8652): 
+Le permite medir la aceleración y el movimiento a lo largo de tres ejes.
 
-4.	Controlador USB (NXP/Freescale KL26Z): microcontrolador ARM Cortex-M0 + de 48MHz, que incluye un controlador USB 2.0 On-The-Go (OTG) de velocidad completa, que se usa como interfaz de comunicación entre el USB y el microcontrolador principal Nordic.
+#### 4.	Controlador USB (NXP/Freescale KL26Z): 
+Microcontrolador ARM Cortex-M0 + de 48MHz, que incluye un controlador USB 2.0 On-The-Go (OTG) de velocidad completa, que se usa como interfaz de comunicación entre el USB y el microcontrolador principal Nordic.
 
-5.	Conector micro USB: le permite conectar la tarjeta micro: bit con una computadora para cargar códigos o alimentarla con 5V.
+#### 5.	Conector micro USB: 
+Le permite conectar la tarjeta micro: bit con una computadora para cargar códigos o alimentarla con 5V.
 
-6.	Antena inteligente Bluetooth: una antena impresa que transmite señales Bluetooth en la banda de 2.4GHz.
+#### 6.	Antena inteligente Bluetooth: 
+Una antena impresa que transmite señales Bluetooth en la banda de 2.4GHz.
 
-7.	Botón RESET: le permite restablecer el micro: bit y reiniciar el programa que se está ejecutando actualmente o poner el micro: bit en modo de mantenimiento.
+#### 7.	Botón RESET: 
+Le permite restablecer el micro: bit y reiniciar el programa que se está ejecutando actualmente o poner el micro: bit en modo de mantenimiento.
 
-8.	Conector JST de la batería: le permite alimentar la tarjeta micro: bit con 2 baterías AAA, o con una batería Li-Po de una celda.
+#### 8.	Conector JST de la batería: 
+Le permite alimentar la tarjeta micro: bit con 2 baterías AAA, o con una batería Li-Po de una celda.
 
-9.	LED del sistema: El LED de color amarillo indica la alimentación USB (sin parpadear) y transferencia de datos (parpadeando). No indica la carga de la batería.
+#### 9.	LED del sistema: 
+El LED de color amarillo indica la alimentación USB (sin parpadear) y transferencia de datos (parpadeando). No indica la carga de la batería.
 
-10.	Pines de entrada y salida Dispone de 25 conectores diminutos en su borde inferior siendo los pines 0,1,2, 3V y GND de mayor tamaño. Todo tipo de componentes electrónicos adicionales típicos de Arduino: leds, servomotores, sensores, pulsadores Para utilizar el resto de patillas será necesario insertar la placa en un shield o placa de expansión.
+#### 10.	Pines de entrada y salida: 
+Dispone de 25 conectores diminutos en su borde inferior siendo los pines 0,1,2, 3V y GND de mayor tamaño. Todo tipo de componentes electrónicos adicionales típicos de Arduino: leds, servomotores, sensores, pulsadores Para utilizar el resto de patillas será necesario insertar la placa en un shield o placa de expansión.
 
-11.	Matriz de leds. La placa incorpora una matriz de 5×5 leds que proporcionan múltiples posibilidades para mostrar datos: números, textos, animaciones, etc.
+#### 11.	Matriz de leds:
+La placa incorpora una matriz de 5×5 leds que proporcionan múltiples posibilidades para mostrar datos: números, textos, animaciones, etc.
 
-12.	Botones programables. Dispone de un botón A y un botón B que permiten programar acciones que se disparan mediante su pulsación.
+#### 12.	Botones programables:
+Dispone de un botón A y un botón B que permiten programar acciones que se disparan mediante su pulsación.
 
-13.	Comunicación inalámbrica:  También dispone de conexión Bluetooth para facilitar la comunicación de la placa con dispositivos móviles, etc. Ofrece conexión por radio para la comunicación de una placa con otra.
+#### 13.	Comunicación inalámbrica:  
+También dispone de conexión Bluetooth para facilitar la comunicación de la placa con dispositivos móviles, etc. Ofrece conexión por radio para la comunicación de una placa con otra.
 
-14.	Alimentación. Se puede adquirir aparte un pack de 2 pilas de batería AAA que se conectan a la tarjeta para que funcione sin necesidad de estar conectada al ordenador por USB.
+#### 14.	Alimentación: 
+Se puede adquirir aparte un pack de 2 pilas de batería AAA que se conectan a la tarjeta para que funcione sin necesidad de estar conectada al ordenador por USB.
 
 
 ![](Imagenes/MicroBit.jpeg). 
