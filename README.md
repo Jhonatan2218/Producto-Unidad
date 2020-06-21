@@ -242,23 +242,33 @@ En Python no es realmente necesario declarar las variables, ya que el lenguaje l
 En este ejemplo lo realizaremos en la página de creat.withcode.uk ya que es la que nos permite programar en lenguaje Python que va relacionado directamente con la placa Raspberry Pi.
 El primer ejemplo es de un juego muy conocido como lo es del ahorcado, el cual consiste en, adivinar una palabra y tendremos un determinado número de vida.
 ![](Imagenes/Ahorcado.png)
-La import declaración, que se usa para importar módulos cuyas funciones o variables se pueden usar en el programa actual.
+##### La import declaración, que se usa para importar módulos cuyas funciones o variables se pueden usar en el programa actual.
 La utilizaresmo para importar el modulo time para crear espacios de tiempo en la ejecución del programa.
 
-El input declaración, entrada por teclado.
+##### El input declaración, entrada por teclado.
 
-La if declaración, que ejecuta condicionalmente un bloque de código, junto con else y elif (una contracción de else-if).
+##### La if declaración, que ejecuta condicionalmente un bloque de código, junto con else y elif (una contracción de else-if).
 La utilizaremos para compara los datos ingresado con los datos definidos en el codigo.
 
-La while declaración, que ejecuta un bloque de código siempre que su condición sea verdadera.
+##### La while declaración, que ejecuta un bloque de código siempre que su condición sea verdadera.
 Servira para que el programa continue mientras no perdamos las vidas.
 
-La break declaración, sale del bucle.
+##### La break declaración, sale del bucle.
 Servira para terminar el programa siempre y cuando ganemos.
 #### Resultado
 ![](Imagenes/Ahorcado-Resultado.png)
 
 #### 2) Promedio
+En el siguiente ejemplo realizaremos un programa en el cual nos permita ingresar 3 notas y calculara el promedio y nos informara si el estudiante esta aprobado o reprobado.
+
+![](Imagenes/Promedio.png)
+##### El input declaración, entrada por teclado.
+Mas la int declaración, servirá para ingresar datos numéricos por teclado.
+##### La if declaración, que ejecuta condicionalmente un bloque de código, junto con else y elif (una contracción de else-if).
+Compara el promedio y determinar si está aprobado o reprobado.
+#### Resultado
+![](Imagenes/Promedio-Resultado.png)
+
 
 ### 8. CONCLUSIONES
 
