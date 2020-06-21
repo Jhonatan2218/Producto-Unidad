@@ -358,5 +358,7 @@ Como podemos observar la ejecución del simulador y  hacemos las pruebas, compro
 #### 12.1 MANUAL DE USUARIO
 #### Withcode.uk
 ![](Anexos/Manual%20de%20Usuario-Withcode.jpg)
+### TINKERCAD
+![](
 
 
