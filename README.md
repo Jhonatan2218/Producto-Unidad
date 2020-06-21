@@ -231,10 +231,34 @@ Python usa sangría de espacios en blanco , en lugar de llaves o palabras clave,
 ![](Imagenes/Diagrama-Promedio2.png)
 
 ### 6. MAPA DE VARIABLES
+#### 6.1 Lenguaje de programación Python 
+En Python no es realmente necesario declarar las variables, ya que el lenguaje las identifica inmediatamente, pero, un verificador de tipo estático opcional experimental llamado mypy admite la verificación de tipo en tiempo de compilación.
 ![](Imagenes/Mapa%20de%20variables-Python1.png)
 ![](Imagenes/Mapa%20de%20variables-Python2.png)
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
+### 7.1 Raspberry Pi-Withcode.uk
+#### 1)	Juego del ahorcado
+En este ejemplo lo realizaremos en la página de creat.withcode.uk ya que es la que nos permite programar en lenguaje Python que va relacionado directamente con la placa Raspberry Pi.
+El primer ejemplo es de un juego muy conocido como lo es del ahorcado, el cual consiste en, adivinar una palabra y tendremos un determinado número de vida.
+![](Imagenes/Ahorcado.png)
+La import declaración, que se usa para importar módulos cuyas funciones o variables se pueden usar en el programa actual.
+La utilizaresmo para importar el modulo time para crear espacios de tiempo en la ejecución del programa.
+
+El input declaración, entrada por teclado.
+
+La if declaración, que ejecuta condicionalmente un bloque de código, junto con else y elif (una contracción de else-if).
+La utilizaremos para compara los datos ingresado con los datos definidos en el codigo.
+
+La while declaración, que ejecuta un bloque de código siempre que su condición sea verdadera.
+Servira para que el programa continue mientras no perdamos las vidas.
+
+La break declaración, sale del bucle.
+Servira para terminar el programa siempre y cuando ganemos.
+#### Resultado
+![](Imagenes/Ahorcado-Resultado.png)
+
+#### 2) Promedio
 
 ### 8. CONCLUSIONES
 
