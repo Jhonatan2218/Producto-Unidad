@@ -253,7 +253,7 @@ En Python no es realmente necesario declarar las variables, ya que el lenguaje l
 
 ### 6.2  Lenguaje de programacion de Arduino uno
 
-Para la programacion de nuestro programa en nuestra plataforma ya analisada debemos conocer el nombre de las funciones y su funcionamineto, sintaxis de esta para no comenter muchos errores en la progracion.
+Para la programacion de nuestro programa en nuestra plataforma ya analisada debemos conocer el nombre de las funciones y su funcionamineto, sintaxis de esta para no comenter muchos errores en la programacion de nuestro circuito.
 
 ![](Imagenes/Tabla%20de%20variables.jpeg)
 
