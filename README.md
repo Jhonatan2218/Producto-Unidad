@@ -224,8 +224,15 @@ Python usa sangría de espacios en blanco , en lugar de llaves o palabras clave,
 
 
 ### 5. DIAGRAMAS
+#### Diagrama de flujo del ejemplo "promedio" realizado en Withcode.uk
+##### Ingreso de datos por teclado y proceso
+![](Imagenes/Diagrama-Promedio1.png)
+##### Comparacion de datos y resultado
+![](Imagenes/Diagrama-Promedio2.png)
 
 ### 6. MAPA DE VARIABLES
+![](Imagenes/Mapa%20de%20variables-Python1.png)
+![](Imagenes/Mapa%20de%20variables-Python2.png)
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
