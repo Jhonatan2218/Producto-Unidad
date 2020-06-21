@@ -251,6 +251,12 @@ En Python no es realmente necesario declarar las variables, ya que el lenguaje l
 ![](Imagenes/Mapa%20de%20variables-Python1.png)
 ![](Imagenes/Mapa%20de%20variables-Python2.png)
 
+### 6.2  Lenguaje de programacion de Arduino uno
+
+Para la programacion de nuestro programa en nuestra plataforma ya analisada debemos conocer el nombre de las funciones y su funcionamineto, sintaxis de esta para no comenter muchos errores en la progracion.
+
+![](Imagenes/Tabla%20de%20variables.jpeg)
+
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 ### 7.1 Raspberry Pi-Withcode.uk
 #### 1)	Juego del ahorcado
