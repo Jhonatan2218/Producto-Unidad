@@ -304,7 +304,7 @@ Una vez escogidos nuestros elementos que necesitaremos para nuestro ejemplo, emp
 
 ### ENTRADAS/SALIDAS
 
-Identificaremos nuestra salida que será el pin 13, pin 12, pin 8 y nuestra entrada que será el pin7.
+Identificaremos nuestra salida que será el pin 13, pin 12, pin 8 son los leds y nuestra entrada que será el pin7 este sera representado por nuestro pulsador.
 
 ###  PROGRAMACION DEL CODIGO.
 
@@ -319,6 +319,32 @@ Usaremos (digitalwrite) para darle la instrucción a nuestra variable de salida 
 
 ![](Imagenes/Semaforo%201.jpeg)
 
+Como podemos ver al momento de presionar el pulsador nuestro código lee ese estado del botón y mantiene la serie ejecutándose de manera continua. Ya que en el código especificamos que el primer led en prenderse sea el verde y continúe de a su derecha indefinidamente.
+
+### 2) ENCENDIDO Y APAGADO DE UN LED.
+
+En este ejemplo se realizará el encendido de un led mediante un pulsador, cuando tengamos mantenido el pulsador el led se encenderá y cuando lo soltemos el led se apagará. La entrada del dato será representada por el pulsador esta esta en el pin 2 de las entradas de nuestro Arduino uno. La salida se representará por medio del led y esta tendrá su correspondiente pin de salida en nuestra placa la cual es el pin 8. Para este ejemplo usaremos 1 leds,1 pulsador,2 resistencias 330 ohms, Arduino, protoboard. Empezaremos con la conexión de nuestra placa con nuestro protoboard, conectando el pin 5v con la parte positiva del protoboard y el pin GND a la parte negativa de este. Montaremos nuestro Circuito como vemos en la imagen y empezaremos con el desarrollo de nuestro código.
+
+![](Imagenes/Led2.jpeg)
+
+### ENTRADAS/SALIDAS
+
+Nuestra entrada del dato sera representado por nuestro pulsador, su entrada estara en el pin #2 de nuestro Arduino.
+Las salida sera representada por el led y su pin#8 sera la salida asignada en nuestra placa de Arduino.
+
+### PROGRAMACION DEL CODIGO.
+
+![](Imagenes/Led.jpeg)
+
+Empezaremos con la declaración de nuestras variables, luego colocaremos la función void setup para declarar nuestras entradas y salidas que requerimos para nuestro circuito, después colocaremos nuestra función void loop para ejecutar el código. Ingresaremos la función Digitalread para dar una lectura constante al botón y determinar con la función siguiente la instrucción a seguir encender o apagar el led. Comprobamos que el código funcione y no rebote un error procederemos a la simulación.
+
+### RESULTADOS.
+
+![](Imagenes/Led3.jpeg)
+
+![](Imagenes/Led1.jpeg)
+
+Como podemos observar la ejecución del simulador y  hacemos las pruebas, comprobamos  nuestro programa es exitoso tanto el ensamblaje como el codigo.
 
 ### 8. CONCLUSIONES
 
