@@ -248,10 +248,7 @@ Dispone de un botón A y un botón B que permiten programar acciones que se disp
 También dispone de conexión Bluetooth para facilitar la comunicación de la placa con dispositivos móviles, etc. Ofrece conexión por radio para la comunicación de una placa con otra.
 
 #### 14.	Alimentación: 
-Se puede adquirir aparte un pack de 2 pilas de batería AAA que se conectan a la tarjeta para que funcione sin necesidad de estar conectada al ordenador por USB.
-
-
-![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true). 
+Se puede adquirir aparte un pack de 2 pilas de batería AAA que se conectan a la tarjeta para que funcione sin necesidad de estar conectada al ordenador por USB. 
 
 ### 4.2 Software.
 
@@ -409,7 +406,8 @@ En 2014 BBC hizo circular una invitación para compañías y organizaciones para
 #### Sensores de la micro:bit
 Brújula, Acelerómetro, Sensor de luz ambiente (pantalla), Botones, Termómetro.
 
-![]()
+![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true).
+
 ### 8. CONCLUSIONES
 
 ### 9. RECOMENDACIONES
