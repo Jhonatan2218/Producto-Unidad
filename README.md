@@ -251,7 +251,7 @@ También dispone de conexión Bluetooth para facilitar la comunicación de la pl
 Se puede adquirir aparte un pack de 2 pilas de batería AAA que se conectan a la tarjeta para que funcione sin necesidad de estar conectada al ordenador por USB.
 
 
-![](Imagenes/MicroBit.jpeg). 
+![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true). 
 
 ### 4.2 Software.
 
