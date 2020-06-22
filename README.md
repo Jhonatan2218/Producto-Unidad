@@ -408,13 +408,42 @@ Brújula, Acelerómetro, Sensor de luz ambiente (pantalla), Botones, Termómetro
 
 ![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true).
 
-### 8. CONCLUSIONES
+#### Microsoft Makecode.
+Es una plataforma gratis de código libre para crear atractivas experiencias de aprendizaje de informática que apoyan un camino de hacia la programación del mundo real.
 
+Sus características principales son:
+
+Simulador. - este provee a los estudiantes con respuestas inmediatas del cómo funciona lo que están programando haciéndolo más fácil de probar un depurar.
+
+Editor de bloques. – de esta manera los estudiantes nuevos en el tema pueden empezar a codificar con bloques de colores que se pueden arrastras y soltar en la interfaz de trabajo para construir los programas.
+
+Editor de JavaScript. – cuando estén listos, los usuarios podrán mudarse a un editor de JavaScript completo con todas las características. 
+
+![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit%202.png?raw=true)
+![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit3.jpg?raw=true)
+
+#### MicroPython.
+MicroPython es una implementación eficiente del lenguaje de programación Python 3 que incluye un pequeño subconjunto de la biblioteca estándar de Python y está optimizado para ejecutarse en microcontroladores y en entornos restringidos. Esta plataforma robótica proporciona un entorno visual llamado blocky para desarrollar programas que es muy simple e intuitivo.
+
+Tanto Python como blocky son simples e intuitivas herramientas de codificación para un usuario principiante que esté interesado en aprender sobre programación. 
+
+### 8. CONCLUSIONES
+Los microcontroladores propuestos para este proyecto suponen dispositivos compactos e interactivos, cada uno con diferentes características y con sus respectivos pros y contras que juntos nos ofrecen un extenso abanico de posibilidades en el desarrollo de proyectos relacionados con la programación y la electrónica. Es por esto que su uso es muy común no solo en apartado académico sino también en estudios de investigación gracias a las diferentes escalas de dificultad en la que los podemos encontrar.
 ### 9. RECOMENDACIONES
+Incentivar el uso de microcontroladores a fin de introducir a estudiantes en el país de niveles iniciales en ciencias para aproximarlos al mundo de la programación y la electrónica, aprovechando la basta información y herramientas gratuitas que existe en internet para de esta forma llegar a la comprensión del tema con un método más físico e interactivo.
 
 ### 10. CRONOGRAMA
 
 ### 11. BIBLIOGRAFÍA
+Dias, R., Costa, A., Malaquias , J., & Camara , M. (2019). Teaching Computational Reasoning without a. Obtenido de https://ieeexplore.ieee.org/document/8927169
+
+Khamphroo, M., Kwankeo, N., Kaemarungsi, K., & Fukawa, K. (2017). MicroPython-based Educational Mobile Robot for. Obtenido de https://ieeexplore.ieee.org/abstract/document/7958781
+
+Mari Alegre, J., & Serrano Martin, J. A. (2017). BBC Micro:Bit. Introducción a la. Obtenido de http://hdl.handle.net/10251/89292
+
+Rogers, Y., Shum, V., Marquardt, N., Lechelt, S., Johnson, R., Baker, H., & Davies, M. (2017). From the BBC micro to micro:bit and beyond: a British innovation. 24(2). Obtenido de https://dl.acm.org/doi/fullHtml/10.1145/3029601
+
+Sentance , S., Waite, J., Hodges, S., MacLeod, E., & Yeomans , L. (2017). “Creating cool stuff” Pupils’ experience of the BBC micro:bit. Technical symposium on Computer Science Education, 531-536. Obtenido de https://dl.acm.org/doi/epdf/10.1145/3017680.3017749
 
 ### 12. ANEXOS
 #### 12.1 MANUAL DE USUARIO
