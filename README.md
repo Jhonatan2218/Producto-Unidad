@@ -34,8 +34,63 @@ La RPi funciona como un enlace de comunicación entre el usuario que envía señ
 #### Micro bit.
 
 Micro bit es una pequeña tarjeta programable de 4x5 cm diseñada para que aprender a programar sea fácil, divertido y al alcance de todos. Gracias a la gran cantidad de sensores que incorpora, sólo con la tarjeta se pueden llevar a cabo centenares de proyectos. BBC micro: bit también es una plataforma IoT (Internet de las cosas), lo que la hace muy interesante para usuarios avanzados. MicroBit es una tarjeta de circuitos del tamaño de la palma de una mano con una serie de 25 ledes y un chip Bluetooth para conexión inalámbrica. Puede ser programada para mostrar letras, números y otros símbolos y caracteres. Micro Bit fue diseñada para alentar a los niños a participar activamente en la creación de software para computadoras y la creación de nuevas cosas, en lugar de ser consumidores de medios. Creada para funcionar junto con otros sistemas, como Raspberry Pi.
-Es posible utilizar todas las plataformas informáticas principales: Windows, MacOS y Linux para la programación. MakeCode y JavaScript se programa a través del navegador web en el Micro: página web de bits [9]. Se utiliza el enlace "Vamos a codificar" y el código se coloca en la nube entonces. Por lo tanto, una red es necesario. Por el contrario, la red no es necesaria cuando programación en Python porque se realiza localmente a través de Mu Editor [9]. El código se compila en formato binario y luego cargado en el Micro: bit con cable USB
+Es posible utilizar todas las plataformas informáticas principales: Windows, MacOS y Linux para la programación. MakeCode y JavaScript se programa a través del navegador web en el Micro: página web de bits [9]. Se utiliza el enlace "Vamos a codificar" y el código se coloca en la nube entonces. Por lo tanto, una red es necesario. Por el contrario, la red no es necesaria cuando programación en Python porque se realiza localmente a través de Mu Editor [9]. El código se compila en formato binario y luego cargado en el Micro: bit con cable USB.
 
+Analizamos la capacidad que tiene la placa para conformar sistemas más complejos, además del impacto que ha tenido en el campo del aprendizaje de introducción a las ciencias computacionales, enfocándose en la electrónica y programación básica.
+#### BBC Micro: Bit. Introducción a la mecatrónica en estudios preuniversitarios
+Se hace una breve descripción de lo que conforma esta placa de desarrollo, destacando su facilidad para programar y la capacidad de acceso a todo el hardware, para concluir con una comparación de la misma con las otras dos placas que también se han expuesto en este trabajo de investigación como son la placa Arduino y la raspberry pi.
+
+Comparativa. –  En resumen, podemos observar a la raspberry pi como una placa bastante completa y competente con la desventaja de ser compleja para programar, ser poco intuitiva y en general difícil de operar ya que se requiere tener un cierto nivel de programación para poder realizar diseños y controles más atractivos, mientras que la placa Arduino es mas sencilla de programar con solo conocimientos básicos en la materia, además de que se puede encontrar bastante información en la red. Por su lado la placa BBC Micro: bit se considera una placa bastante novedosa y polivalente que permite al usuario adquirir un nivel de conocimiento básico para iniciarse dentro del mundo de la programación de hardware.
+
+La principal característica que se hace destacar de las tres es la capacidad de introducir prácticamente cualquier tipo de sensor. Y como orden de aprendizaje se recomienda empezar usando Micro: bit, para luego movernos a Arduino antes de avanzar a raspberry pi.
+#### “Creating cool stuff” – Pupils’ experience of the BBC micro: bit
+Aquí se expone como la introducción de las ciencias de la computación en el cronograma educativo de las escuelas en muchos países incentivó al uso de herramientas interactivas y accesibles que permitieran a los estudiantes aproximarse a los conceptos de forma práctica.
+
+Las principales características que destacan son el diseño que es gráficamente atractivo y táctil, económicamente accesible, fácil de usar, interactivo y extensible. Podemos notar el énfasis en la computación física que se resume en los siguientes puntos clave:
+
+•	Aumento en la motivación de los estudiantes sin importar el área porque la experiencia de aprendizaje y los resultados son visibles de forma física y no virtual.
+
+•	La naturaleza tangible de dispositivos físicos ayuda a los estudiantes a tener conexiones más naturales con la tecnología. 
+
+•	Trabajar con dispositivos se presta para trabaja en grupo, mismo que se puede dividir en áreas como el diseño de la interfaz de hardware, diseño del algoritmo y la acción de la interfaz de usuario.
+
+•	Los estudiantes se relacionan con la naturaleza física de las tareas, dando rienda suelta a la creatividad al momento de proponer un proyecto.
+
+#### Pregunta de investigación.
+Cuáles son las posibilidades de la placa BBC Micro: bit dentro del aula de clases. Esta se enfocó en cuatro áreas:
+
+-	Percepción de la placa
+
+-	Posibles barreras y facilitadores del uso del dispositivo
+
+-	Uso de recursos para la placa
+
+-	Uso de la placa para un plan de estudios más amplio
+
+#### Metodología.
+Se adopto un enfoque cualitativo para capturar la amplitud del compromiso de los alumnos el dispositivo entrevistando a profesores y alumnos sobre sus experiencias.
+
+#### Participantes.
+Se reclutaron 15 escuelas del reino unido. Los maestros en el estudio tuvieron una variedad de experiencias de informática.
+#### Conclusiones.
+Se encontró que el Micro: bit motiva a los estudiantes a trabajar creativamente. El estudio sugiere que la tangibilidad del dispositivo es un elemento clave para estimular el interés y apoyar la comprensión.
+#### Teaching Computational Reasoning without a Computer
+De acuerdo con estudios realizados en 2018 el trabajo más cotizado fue el de desarrollador de aplicaciones de software. Aquí se expone sobre los beneficios de programas que permiten incentivar el conocimiento sobre programación. Se ve al uso de herramientas codificación básica la manera idónea de potenciar esta natural interacción de las nuevas generaciones con la tecnología ya que con esta realizan una gran cantidad de actividades de las cuales la que menos destaca es la de crear cosas nuevas o investigar.
+
+Algunas de las herramientas que sirvieron como inspiración aquí fueron las siguientes:
+
+•	Edublocks
+
+•	Scottie go!
+•	Mojobot
+
+•	Microsoft Makecode
+
+Estos tienen la característica de basar su ambiente de programación con una interfaz de bloques que de alguna manera permiten al usuario simular la interacción con ciertas partes del hardware de un dispositivo. 
+
+El concepto de incluir estar herramientas fue probado en algunas actividades extracurriculares de los estudiantes y se obtuvo bastante información.
+
+Fue probado con niños de 6 a 12 años. La mayoría de ellos dijo que la interfaz tipo piezas de rompecabezas fue bastante fácil de usar, también muy divertido y que querrían utilizarlo otra vez. Algunos de ellos no estaban de acuerdo con los aspectos descritos anteriormente, dijeron que era un poco difícil y que no compartían el mismo entusiasmo al respecto.
 ### 4.MARCO TEÓRICO .
 
 #### Microcontroladores
@@ -346,6 +401,15 @@ Empezaremos con la declaración de nuestras variables, luego colocaremos la func
 
 Como podemos observar la ejecución del simulador y  hacemos las pruebas, comprobamos  nuestro programa es exitoso tanto el ensamblaje como el codigo.
 
+#### BBC Micro: bit
+En octubre del 2013, el nuevo director General de la BBC anuncio que en el 2015 se realizaría una campaña educacional para conseguir que toda la nación codificara y creara proyectos en la realidad digital. BBC learning llevo su dispositivo al equipo de “Make it digital” quienes hicieron una propuesta. La respuesta de BBC learning fue sugerir el proveer de un millón de pequeñas placas para niños de 11 y 12 años en el Reino Unido a través de sus escuelas.
+
+En 2014 BBC hizo circular una invitación para compañías y organizaciones para asociarse con el proyecto de servicio para conseguir que niños del Reino Unido Codifiquen y la respuesta fue increíble.
+
+#### Sensores de la micro:bit
+Brújula, Acelerómetro, Sensor de luz ambiente (pantalla), Botones, Termómetro.
+
+![]()
 ### 8. CONCLUSIONES
 
 ### 9. RECOMENDACIONES
