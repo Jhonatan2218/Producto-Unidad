@@ -432,7 +432,20 @@ Como podemos observar la ejecución del simulador y  hacemos las pruebas, compro
 ### Micro bit - Makecode
 
 ![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit%202.png?raw=true)
+
+### 1. Contador de pasos
+
+Haciendo uso del sensor integrado debemos poder detectar cada vez que la placa este siendo sacudida y cuando así sea se contara un paso. 
+La entrada de nuestro dato sera captada por el sensor de movimineto integrado a la placa, y nuestra salida estara en nuestra matriz de led mostrándonos  un contador del 1 al 9. 
+
+
 ![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit3.jpg?raw=true)
+
+### 2. Lanzar un dado.
+
+Nuevamente utilizaremos la capacidad de la placa para detectar cuando es sacudida para que elija un numero aleatorio y lo represente en la matriz como lo haría un dado.
+
+
 
 #### MicroPython.
 MicroPython es una implementación eficiente del lenguaje de programación Python 3 que incluye un pequeño subconjunto de la biblioteca estándar de Python y está optimizado para ejecutarse en microcontroladores y en entornos restringidos. Esta plataforma robótica proporciona un entorno visual llamado blocky para desarrollar programas que es muy simple e intuitivo.
