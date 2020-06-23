@@ -328,6 +328,15 @@ Editor de JavaScript. – cuando estén listos, los usuarios podrán mudarse a u
 ##### Comparacion de datos y resultado
 ![](Imagenes/Diagrama-Promedio2.png)
 
+### Diagramas-Arduino uno
+
+![](Imagenes/Diagrama%20Arduino.jpeg)
+
+### Cuircuito-Serie de leds.
+
+![](Imagenes/Semaforo%203.jpeg)
+
+
 ### 6. MAPA DE VARIABLES
 #### 6.1 Lenguaje de programación Python 
 En Python no es realmente necesario declarar las variables, ya que el lenguaje las identifica inmediatamente, pero, un verificador de tipo estático opcional experimental llamado mypy admite la verificación de tipo en tiempo de compilación.
