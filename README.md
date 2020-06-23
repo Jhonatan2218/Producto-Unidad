@@ -36,14 +36,30 @@ La RPi funciona como un enlace de comunicación entre el usuario que envía señ
 Micro bit es una pequeña tarjeta programable de 4x5 cm diseñada para que aprender a programar sea fácil, divertido y al alcance de todos. Gracias a la gran cantidad de sensores que incorpora, sólo con la tarjeta se pueden llevar a cabo centenares de proyectos. BBC micro: bit también es una plataforma IoT (Internet de las cosas), lo que la hace muy interesante para usuarios avanzados. MicroBit es una tarjeta de circuitos del tamaño de la palma de una mano con una serie de 25 ledes y un chip Bluetooth para conexión inalámbrica. Puede ser programada para mostrar letras, números y otros símbolos y caracteres. Micro Bit fue diseñada para alentar a los niños a participar activamente en la creación de software para computadoras y la creación de nuevas cosas, en lugar de ser consumidores de medios. Creada para funcionar junto con otros sistemas, como Raspberry Pi.
 Es posible utilizar todas las plataformas informáticas principales: Windows, MacOS y Linux para la programación. MakeCode y JavaScript se programa a través del navegador web en el Micro: página web de bits [9]. Se utiliza el enlace "Vamos a codificar" y el código se coloca en la nube entonces. Por lo tanto, una red es necesario. Por el contrario, la red no es necesaria cuando programación en Python porque se realiza localmente a través de Mu Editor [9]. El código se compila en formato binario y luego cargado en el Micro: bit con cable USB.
 
+#### BBC Micro: bit
+
+En octubre del 2013, el nuevo director General de la BBC anuncio que en el 2015 se realizaría una campaña educacional para conseguir que toda la nación codificara y creara proyectos en la realidad digital. BBC learning llevo su dispositivo al equipo de “Make it digital” quienes hicieron una propuesta. La respuesta de BBC learning fue sugerir el proveer de un millón de pequeñas placas para niños de 11 y 12 años en el Reino Unido a través de sus escuelas.
+
+En 2014 BBC hizo circular una invitación para compañías y organizaciones para asociarse con el proyecto de servicio para conseguir que niños del Reino Unido Codifiquen y la respuesta fue increíble.
+
+#### Sensores de la micro:bit
+Brújula, Acelerómetro, Sensor de luz ambiente (pantalla), Botones, Termómetro.
+
+![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true).
+
 Analizamos la capacidad que tiene la placa para conformar sistemas más complejos, además del impacto que ha tenido en el campo del aprendizaje de introducción a las ciencias computacionales, enfocándose en la electrónica y programación básica.
+
+
 #### BBC Micro: Bit. Introducción a la mecatrónica en estudios preuniversitarios
+
 Se hace una breve descripción de lo que conforma esta placa de desarrollo, destacando su facilidad para programar y la capacidad de acceso a todo el hardware, para concluir con una comparación de la misma con las otras dos placas que también se han expuesto en este trabajo de investigación como son la placa Arduino y la raspberry pi.
 
 Comparativa. –  En resumen, podemos observar a la raspberry pi como una placa bastante completa y competente con la desventaja de ser compleja para programar, ser poco intuitiva y en general difícil de operar ya que se requiere tener un cierto nivel de programación para poder realizar diseños y controles más atractivos, mientras que la placa Arduino es mas sencilla de programar con solo conocimientos básicos en la materia, además de que se puede encontrar bastante información en la red. Por su lado la placa BBC Micro: bit se considera una placa bastante novedosa y polivalente que permite al usuario adquirir un nivel de conocimiento básico para iniciarse dentro del mundo de la programación de hardware.
 
 La principal característica que se hace destacar de las tres es la capacidad de introducir prácticamente cualquier tipo de sensor. Y como orden de aprendizaje se recomienda empezar usando Micro: bit, para luego movernos a Arduino antes de avanzar a raspberry pi.
+
 #### “Creating cool stuff” – Pupils’ experience of the BBC micro: bit
+
 Aquí se expone como la introducción de las ciencias de la computación en el cronograma educativo de las escuelas en muchos países incentivó al uso de herramientas interactivas y accesibles que permitieran a los estudiantes aproximarse a los conceptos de forma práctica.
 
 Las principales características que destacan son el diseño que es gráficamente atractivo y táctil, económicamente accesible, fácil de usar, interactivo y extensible. Podemos notar el énfasis en la computación física que se resume en los siguientes puntos clave:
@@ -66,6 +82,7 @@ Cuáles son las posibilidades de la placa BBC Micro: bit dentro del aula de clas
 -	Uso de recursos para la placa
 
 -	Uso de la placa para un plan de estudios más amplio
+
 
 #### Metodología.
 Se adopto un enfoque cualitativo para capturar la amplitud del compromiso de los alumnos el dispositivo entrevistando a profesores y alumnos sobre sus experiencias.
@@ -289,6 +306,21 @@ Python está destinado a ser un lenguaje fácil de leer. Su formato es visualmen
 #### Sangría
 Python usa sangría de espacios en blanco , en lugar de llaves o palabras clave, para delimitar bloques . Un aumento en la sangría viene después de ciertas declaraciones; Una disminución en la sangría significa el final del bloque actual. Por lo tanto, la estructura visual del programa representa con precisión la estructura semántica del programa. Esta característica a veces se denomina la regla de fuera de juego , que algunos otros idiomas comparten, pero en la mayoría de los idiomas, la sangría no tiene ningún significado semántico.
 
+### Placa Micro bit
+
+#### Microsoft Makecode.
+Es una plataforma gratis de código libre para crear atractivas experiencias de aprendizaje de informática que apoyan un camino de hacia la programación del mundo real.
+
+Sus características principales son:
+
+Simulador. - este provee a los estudiantes con respuestas inmediatas del cómo funciona lo que están programando haciéndolo más fácil de probar un depurar.
+
+Editor de bloques. – de esta manera los estudiantes nuevos en el tema pueden empezar a codificar con bloques de colores que se pueden arrastras y soltar en la interfaz de trabajo para construir los programas.
+
+Editor de JavaScript. – cuando estén listos, los usuarios podrán mudarse a un editor de JavaScript completo con todas las características. 
+
+
+
 
 ### 5. DIAGRAMAS
 #### Diagrama de flujo del ejemplo "promedio" realizado en Withcode.uk
@@ -398,26 +430,7 @@ Empezaremos con la declaración de nuestras variables, luego colocaremos la func
 
 Como podemos observar la ejecución del simulador y  hacemos las pruebas, comprobamos  nuestro programa es exitoso tanto el ensamblaje como el codigo.
 
-#### BBC Micro: bit
-En octubre del 2013, el nuevo director General de la BBC anuncio que en el 2015 se realizaría una campaña educacional para conseguir que toda la nación codificara y creara proyectos en la realidad digital. BBC learning llevo su dispositivo al equipo de “Make it digital” quienes hicieron una propuesta. La respuesta de BBC learning fue sugerir el proveer de un millón de pequeñas placas para niños de 11 y 12 años en el Reino Unido a través de sus escuelas.
-
-En 2014 BBC hizo circular una invitación para compañías y organizaciones para asociarse con el proyecto de servicio para conseguir que niños del Reino Unido Codifiquen y la respuesta fue increíble.
-
-#### Sensores de la micro:bit
-Brújula, Acelerómetro, Sensor de luz ambiente (pantalla), Botones, Termómetro.
-
-![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true).
-
-#### Microsoft Makecode.
-Es una plataforma gratis de código libre para crear atractivas experiencias de aprendizaje de informática que apoyan un camino de hacia la programación del mundo real.
-
-Sus características principales son:
-
-Simulador. - este provee a los estudiantes con respuestas inmediatas del cómo funciona lo que están programando haciéndolo más fácil de probar un depurar.
-
-Editor de bloques. – de esta manera los estudiantes nuevos en el tema pueden empezar a codificar con bloques de colores que se pueden arrastras y soltar en la interfaz de trabajo para construir los programas.
-
-Editor de JavaScript. – cuando estén listos, los usuarios podrán mudarse a un editor de JavaScript completo con todas las características. 
+### Micro bit - Makecode
 
 ![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit%202.png?raw=true)
 ![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit3.jpg?raw=true)
@@ -444,6 +457,26 @@ Mari Alegre, J., & Serrano Martin, J. A. (2017). BBC Micro:Bit. Introducción a 
 Rogers, Y., Shum, V., Marquardt, N., Lechelt, S., Johnson, R., Baker, H., & Davies, M. (2017). From the BBC micro to micro:bit and beyond: a British innovation. 24(2). Obtenido de https://dl.acm.org/doi/fullHtml/10.1145/3029601
 
 Sentance , S., Waite, J., Hodges, S., MacLeod, E., & Yeomans , L. (2017). “Creating cool stuff” Pupils’ experience of the BBC micro:bit. Technical symposium on Computer Science Education, 531-536. Obtenido de https://dl.acm.org/doi/epdf/10.1145/3017680.3017749
+
+Bobby Paul, C. P. (2018). Design of a Power Feeder for Elderly & Simulationof Motor Circuit Developed using AUTODESK TINKERCAD. Recuperado el 17 de 06 de 2019, de https://ieeexplore.ieee.org/document/8821057
+
+Casco, S. M. (septiembre de 2014). Raspberry Pi, Arduino y Beaglebone Black. Obtenido de jeuazarru: http://jeuazarru.com/wp-content/uploads/2014/10/MiniPCs.pdf
+
+Contreras, L. (18 de diciembre de 2013). RASPBERRY PI. Obtenido de Historia de la Informática: https://histinf.blogs.upv.es/2013/12/18/raspberry-pi/
+
+Fabrizio López, F. J. (15 de noviembre de 2019). Raspberry Pi para la implementación de tecnología web en un proceso de automatización. (Universidad de Guanajuato, DICIS) Recuperado el 2018, de https://ieeexplore.ieee.org/document/9057040
+
+FLORES, B. (9 de junio de 2019). Introducción a la electrónica con micro:bit. Obtenido de agelectronica.: https://agelectronica.blog/2019/07/09/introduccion-a-la-electronica-con-microbit/
+
+Jiří Pech, M. N. (2020). Utilice Arduino y Micro: bit como plataforma de enseñanza para la programación educativa y electrónica en la base STEM. (University of South Bohemia ) Recuperado el 2020, de https://ieeexplore.ieee.org/document/9111798
+
+LINO, A. M. (abril de 2014). “DISENO E IMPLEMENTACION DE PLATAFORMA BASADA EN MICROCONTROLADORES PIC PARA FACILITAR EL ESTUDIO PRACTICO Y . Obtenido de http://repositorio.ucsg.edu.ec/bitstream/3317/1816/1/T-UCSG-PRE-TEC-ITEL-51.pdf
+
+O. E.Amestica, P. M.-F. (29 de octubre de 2019). An Experimental Comparison of Arduino IDE Compatible Platforms for Digital Control and Data Acquisition Applications . (CHILECON) Recuperado el 13 de octubre de 2019, de https://ieeexplore.ieee.org/document/8986865
+
+S, P. A. (10 de noviembre de 2004). INTRODUCCIÓN AL MICROCONTROLADOR. Obtenido de cloudfront: https://d1wqtxts1xzle7.cloudfront.net/39407044/micro.pdf?1445749965=&response-content-disposition=inline%3B+filename%3DMicro.pdf&Expires=1592066548&Signature=LfQBYOQ521bKkJpXjpPP6Bxd1KmBorQc8kKDE9oE0vS5CmmzXhePPauZkwKQ0czJ77sRC6gOsEWc53~OGuZ07WvxpoPt-WHL9
+
+
 
 ### 12. ANEXOS
 #### 12.1 MANUAL DE USUARIO
