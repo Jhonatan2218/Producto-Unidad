@@ -42,14 +42,6 @@ En octubre del 2013, el nuevo director General de la BBC anuncio que en el 2015 
 
 En 2014 BBC hizo circular una invitación para compañías y organizaciones para asociarse con el proyecto de servicio para conseguir que niños del Reino Unido Codifiquen y la respuesta fue increíble.
 
-#### Sensores de la micro:bit
-Brújula, Acelerómetro, Sensor de luz ambiente (pantalla), Botones, Termómetro.
-
-![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true).
-
-Analizamos la capacidad que tiene la placa para conformar sistemas más complejos, además del impacto que ha tenido en el campo del aprendizaje de introducción a las ciencias computacionales, enfocándose en la electrónica y programación básica.
-
-
 #### BBC Micro: Bit. Introducción a la mecatrónica en estudios preuniversitarios
 
 Se hace una breve descripción de lo que conforma esta placa de desarrollo, destacando su facilidad para programar y la capacidad de acceso a todo el hardware, para concluir con una comparación de la misma con las otras dos placas que también se han expuesto en este trabajo de investigación como son la placa Arduino y la raspberry pi.
@@ -266,6 +258,13 @@ También dispone de conexión Bluetooth para facilitar la comunicación de la pl
 
 #### 14.	Alimentación: 
 Se puede adquirir aparte un pack de 2 pilas de batería AAA que se conectan a la tarjeta para que funcione sin necesidad de estar conectada al ordenador por USB. 
+
+#### Sensores de la micro:bit
+Brújula, Acelerómetro, Sensor de luz ambiente (pantalla), Botones, Termómetro.
+
+![](https://github.com/Jhonatan2218/Producto-Unidad/blob/master/Imagenes/microbit.png?raw=true).
+
+Analizamos la capacidad que tiene la placa para conformar sistemas más complejos, además del impacto que ha tenido en el campo del aprendizaje de introducción a las ciencias computacionales, enfocándose en la electrónica y programación básica.
 
 ### 4.2 Software.
 
