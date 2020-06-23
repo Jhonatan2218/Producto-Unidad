@@ -1,0 +1,53 @@
+let Dado = 0
+input.onGesture(Gesture.TiltRight, function () {
+    Dado = randint(0, 6)
+    if (Dado == 1) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . # . .
+            . . . . .
+            . . . . .
+            `)
+    } else if (Dado == 2) {
+        basic.showLeds(`
+            . . . . .
+            . # . . .
+            . . . . .
+            . . . # .
+            . . . . .
+            `)
+    } else if (Dado == 3) {
+        basic.showLeds(`
+            . . . . .
+            . # . . .
+            . . # . .
+            . . . # .
+            . . . . .
+            `)
+    } else if (Dado == 4) {
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . . . . .
+            . # . # .
+            . . . . .
+            `)
+    } else if (Dado == 5) {
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . . # . .
+            . # . # .
+            . . . . .
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            . # . # .
+            . # . # .
+            . # . # .
+            . . . . .
+            `)
+    }
+})

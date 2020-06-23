@@ -1,0 +1,13 @@
+input.onButtonPressed(Button.A, function () {
+    Contador = 0
+    led.stopAnimation()
+    basic.showNumber(Contador)
+})
+input.onGesture(Gesture.TiltRight, function () {
+    Contador += 1
+    led.stopAnimation()
+    basic.showNumber(Contador)
+})
+let Contador = 0
+basic.showNumber(0)
+Contador = 0
