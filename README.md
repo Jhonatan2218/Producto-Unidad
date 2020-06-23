@@ -506,8 +506,11 @@ S, P. A. (10 de noviembre de 2004). INTRODUCCIÓN AL MICROCONTROLADOR. Obtenido 
 #### 12.1 MANUAL DE USUARIO
 #### Withcode.uk
 ![](Anexos/Manual%20de%20Usuario-Withcode.jpg)
-### TINKERCAD
+#### TINKERCAD
 
 ![](Anexos/Manual%20de%20Usuario-Tinkercad.jpeg)
+#### MicroBit
+
+![](Anexos/Manual%20de%20Usuario-MicroBit.jpeg)
 
 
