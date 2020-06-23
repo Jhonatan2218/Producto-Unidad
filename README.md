@@ -493,6 +493,9 @@ Jiří Pech, M. N. (2020). Utilice Arduino y Micro: bit como plataforma de ense�
 
 LINO, A. M. (abril de 2014). “DISENO E IMPLEMENTACION DE PLATAFORMA BASADA EN MICROCONTROLADORES PIC PARA FACILITAR EL ESTUDIO PRACTICO Y . Obtenido de http://repositorio.ucsg.edu.ec/bitstream/3317/1816/1/T-UCSG-PRE-TEC-ITEL-51.pdf
 
+Guido van Rossum. The Python Programming Language. http://python.org, last viewed on
+January 30th, 2008.
+
 O. E.Amestica, P. M.-F. (29 de octubre de 2019). An Experimental Comparison of Arduino IDE Compatible Platforms for Digital Control and Data Acquisition Applications . (CHILECON) Recuperado el 13 de octubre de 2019, de https://ieeexplore.ieee.org/document/8986865
 
 S, P. A. (10 de noviembre de 2004). INTRODUCCIÓN AL MICROCONTROLADOR. Obtenido de cloudfront: https://d1wqtxts1xzle7.cloudfront.net/39407044/micro.pdf?1445749965=&response-content-disposition=inline%3B+filename%3DMicro.pdf&Expires=1592066548&Signature=LfQBYOQ521bKkJpXjpPP6Bxd1KmBorQc8kKDE9oE0vS5CmmzXhePPauZkwKQ0czJ77sRC6gOsEWc53~OGuZ07WvxpoPt-WHL9
